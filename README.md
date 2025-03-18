@@ -16,7 +16,7 @@
 - 2.4 大模型强化学习的发展
 - 2.5 推理优化的发展+量化剪枝+MoE+推理框架
 
-## 三、研究技术分析
+## 三、相关技术研究和实验设计
 - 3.1 Transformer模型架构分析
 - 3.2 Qwen模型架构分析
   - 3.2.1 Qwen
@@ -34,7 +34,7 @@
   - 3.5.1 MoE机制解析
   - 3.5.2 VLLM原理解析
 
-## 四、 研究过程设计
+## 四、 数据处理和模型微调
 - 研究基础设施
   - 硬件
   - [LLAMA FACTORY](https://github.com/BrenchCC/LLaMA-Factory/tree/qwen2-r1-distill-training) ～ SFT
@@ -43,6 +43,8 @@
   - 自行开发的R1 Trainer ———> Qwen R1 GRPO [R1-GRPO-Qwen2.5-RL](https://github.com/BrenchCC/R1-GRPO-Qwen2.5-RL)
   - [EasyR1](https://github.com/hiyouga/EasyR1) ————> R1-Distlled-Qwen GRPO 再训练
   - [VLLM](https://github.com/vllm-project/vllm) 开源推理框架
+- 数据格式清洗和预处理
+- 评测指标介绍
 - 第一阶段 以思维链数据和一些知识类数据进行SFT———>一版思维链强化型模型，一版知识强化型模型
   - [Brench/MMLU-Pro-CoT-Train-43K](https://huggingface.co/datasets/Brench/MMLU-Pro-CoT-Train-43K)
   - [AI-MO/NuminaMath-CoT](https://huggingface.co/datasets/AI-MO/NuminaMath-CoT)
