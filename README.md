@@ -11,7 +11,7 @@
 - 1.3 小结
 
 ## 二、国内外研究现状
-- 2.1 大模型发展经历溯源 (from bert to deepseek r1)
+- 2.1 大模型发展经历溯源 (from bert to QWEN)
 - 2.2 推理大模型发展经历溯源 (Deepseek Math，Numina Math Models，GPT O1，Kimi1.5 long context，Deepseek R1)
 - 2.3 大模型微调发展
 - 2.4 大模型强化学习的发展
@@ -42,7 +42,7 @@
   - [Opencompass](https://github.com/BrenchCC/opencompass_graduation) ～ Evaluation
   - [Mergekit](https://github.com/arcee-ai/mergekit) ～ MOE
   - 自行开发的R1 Trainer ———> Qwen R1 GRPO [R1-GRPO-Qwen2.5-RL](https://github.com/BrenchCC/R1-GRPO-Qwen2.5-RL)
-  - [EasyR1](https://github.com/hiyouga/EasyR1) ————> R1-Distlled-Qwen GRPO 再训练
+  - [EasyR1](https://github.com/hiyouga/EasyR1) VERL ————> R1-Distlled-Qwen GRPO 再训练
   - [VLLM](https://github.com/vllm-project/vllm) 开源推理框架
 - 数据格式清洗和预处理
 - 评测指标介绍
