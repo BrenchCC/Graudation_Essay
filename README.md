@@ -1,4 +1,4 @@
-# Graudation_Essay
+# Graduation_Essay
 **My recording of Graduation Essay(Include endnote files to cite)**
 
 ## 摘要
