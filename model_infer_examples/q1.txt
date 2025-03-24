@@ -1,0 +1,98 @@
+qustion_en
+At Euclid Middle School the mathematics teachers are Mrs. Germain, Mr. Newton, and Mrs. Young. There are $11$ students in Mrs. Germain's class, $8$ students in Mr. Newton's class, and $9$ students in Mrs. Young's class taking the AMC $8$ this year. How many mathematics students at Euclid Middle School are taking the contest?
+$\textbf{(A)}\ 26 \qquad\textbf{(B)}\ 27\qquad\textbf{(C)}\ 28\qquad\textbf{(D)}\ 29\qquad\textbf{(E)}\ 30$
+
+question_cn:
+欧几里得中学的数学老师是 Germain 老师、Newton 老师和 Young 老师。今年，Germain 老师的班上有 $11$ 名学生，Newton 老师的班上有 $8$ 名学生，Young 老师的班上有 $9$ 名学生参加 AMC $8$。欧几里得中学有多少名数学系学生参加比赛？
+$\textbf{(A)}\ 26 \qquad\textbf{(B)}\ 27\qquad\textbf{(C)}\ 28\qquad\textbf{(D)}\ 29\qquad\textbf{(E)}\ 30$
+
+response_en:
+<think>
+Okay, so I need to figure out how many mathematics students at Euclid Middle School are taking the AMC 8 contest. The problem gives me information about three different math classes: Mrs. Germain's, Mr. Newton's, and Mrs. Young's. Let me break down the numbers one by one.
+
+First, Mrs. Germain has 11 students in her class. That seems straightforward. Then, there are 8 students in Mr. Newton's class. Hmm, wait, but maybe that number changes if some students switch? No, the problem doesn't mention any transitions or changes between these two classes. So I think it's safe to just add those together first.
+
+Next, Mrs. Young has 9 students taking the AMC 8. Again, assuming no switching, I'll include that total as well.
+
+Now, combining all of them: 11 (Germain) + 8 (Newton) + 9 (Young). Let me calculate that step by step. 11 plus 8 is 19, right? Because 10+8=18, then adding another 1 makes it 19. Then 19 plus 9 would be 28. Wait, 19+9 equals 28. Is that correct?
+
+Wait a second, let me check again. Maybe I made a mistake here. If Mrs. Germain has 11 and Mrs. Young has 9, and Mr. Newton has 8, adding all three:
+
+11 (Germain) + 8 (Newton) = 19
+
+Then 19 + 9 (Young) = 28
+
+Hmm, but hold on. Are there any overlaps or anything I might have missed? For example, sometimes when counting groups, you might accidentally count someone twice if they're in multiple classes. But since the question says "taking the contest," which usually refers to being enrolled in a particular class for the contest, not necessarily being enrolled in more than one. So probably we can assume that each student is only counted once per class. Therefore, adding 11 + 8 + 9 should give us the total number of unique students taking the AMC 8.
+
+But let me double-check with another approach. Suppose we list all the students:
+
+Mrs. Germain's class: 11 students.
+
+Mr. Newton's class: 8 students.
+
+Mrs. Young's class: 9 students.
+
+Total students: 11 + 8 + 9 = 28. That seems right.
+
+Looking at the answer choices, option C is 28. So the answer should be 28? Let me check the options again.
+
+(A) 26
+
+(B) 27
+
+(C) 28
+
+(D) 29
+
+(E) 30
+
+Yes, 28 is an option. But before finalizing, let me make sure there isn't a trick here. Sometimes problems might involve overlapping classes or something else, but given that the problem mentions specific classes without mentioning overlap, I don't think that complicates things. Each class has distinct numbers, so adding them up directly gives the total number of students taking the contest.
+
+Therefore, the answer is 28, which corresponds to option C.
+</think>
+
+To determine the total number of mathematics students at Euclid Middle School taking the AMC 8 contest, we need to add the number of students from each teacher's class:
+
+- **Mrs. Germain’s Class**: \( 11 \) students
+- **Mr. Newton’s Class**: \( 8 \) students
+- **Mrs. Young’s Class**: \( 9 \) students
+
+Adding these together:
+
+\[
+11 + 8 + 9 = 28
+\]
+
+Thus, the total number of mathematics students taking the contest is \(\boxed{28}\).
+
+response_cn:
+<think>
+首先，明确各老师的班级人数：
+- Germain老师：11名学生
+- Newton老师：8名学生
+- Young老师：9名学生
+
+接下来，将这些数据相加，求出总人数：
+11 + 8 + 9 = 28名学生参加了AMC8比赛。
+
+因此，答案为选项C)28。
+</think>
+
+要计算欧几里得中学有几名数学系学生参加了 AMC 8 比赛，我们可以按照以下步骤进行：
+
+1. **确定每位老师的班级人数：**
+   - **Germain老师：** 11名学生
+   - **Newton老师：** 8名学生
+   - **Young老师：** 9名学生
+
+2. **将所有学生的班级人数相加：**
+   \[
+   11 + 8 + 9 = 28
+   \]
+
+3. **得出结论：**
+   欧几里得中学共有 **28名** 数学系学生参加了 AMC 8 比赛。
+
+\[
+\boxed{28}
+\]
