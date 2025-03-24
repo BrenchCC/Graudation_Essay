@@ -1,0 +1,128 @@
+question_en:
+John purchased three dozen oranges for $\$$28.80. At the same rate, how much would five dozen of these oranges cost?
+
+question_cn:
+约翰以 28.80 美元的价格购买了三斤橙子。按照同样的价格，五斤橙子的价格是多少？
+
+response_en:
+<think>
+Okay, let's see here. John bought 3 dozen oranges and it costs $28.80. Now they want to know what five dozens would cost at the same price per orange. Hmm.
+
+First thing I need to figure out is the price per dozen first because that should be consistent regardless of quantity since he was buying them in bunches. So maybe if I divide the total amount spent on 3 doz by 3, that will give me the unit price per dozen?
+
+So, breaking down: Total cost = $28.80  
+Number of dozes bought = 3  
+
+Therefore, Price per dozen (PPD) = Total / Number = $28.80 ÷ 3. Let me compute that. 
+
+$28 divided by 3... well, 3 times 9 is 27, so 28 - 27 equals 1. Then there's .8 left over? Wait no, actually when you have dollars with cents like this, sometimes people round differently but probably better just as decimals. But perhaps we can leave it as fractions or decimal equivalents. Maybe converting 28.8 into quarters might help later. Alternatively, dividing directly:
+
+28.80 ÷ 3. To make division easier mentally, think about multiplying numerator and denominator by 4 to eliminate the decimal point. That gives 288/10 ÷ 3/4 = 288/(10*3)/4 = 288/30. Simplify that fraction. Dividing both numerator and denominator by 6: 288 ÷6=48; 30÷6=5 => 48/5. Which simplifies further to 9.6. So PPD is $9.60 per dozen.
+
+Wait, hold on. If each dozen costs $9.60, then two-dozen would be 2 * 9.60 = $19.20. Three-dozen is 3 * 9.60 = $28.80 which matches the given information. Good.
+
+Now, going back to the original question: How many dozes does he buy now? Five doz. Multiply his current PPD by 5. So 9.60 * 5. Let me calculate that again step by step. 9 * 5 = 45, 0.6 * 5 = 3, so adding those together gets 45 + 3 = 48. Therefore, 5doz would cost $48.00.
+
+But wait, before finalizing, check my calculations once more. Sometimes even though steps seem right, arithmetic errors creep in. For example, did I convert 28.8 correctly to fourths properly? Because otherwise, when doing 28.8 ÷ 3, some people might get confused between whole numbers vs. tenths etc., leading to wrong answers.
+
+Alternatively, another way could involve setting up proportions. The ratio from 3 doz costing $28.80 is equal to x doz costing y dollars. So set up proportion equation: 3/doz : 28.80 = 5/doz : y. Cross-multiplying: 3y = 5*(28.8). Solving for y: Divide both sides by 3: y = 5*(28.8)/(3). As above, got 9.60*y ≈ 48.00. Yep, same result.
+
+Hmm, seems solid. Another sanity-check method: Suppose instead of calculating exactly, estimate prices based on known quantities. Since 3 dozen is approximately half a bag where usually bags aren't sold in halves unless marked. But assuming standard pricing, likely around $12-15 for a full bag. So 3 dozen being roughly halfway through a bag, paying ~$12-$15. Given that exact calculation gave us $48, close enough considering rounding differences during estimation. Probably correct answer.
+</think>
+
+To determine the cost of five dozen oranges at the same rate, follow these steps:
+
+**Step 1:** Calculate the price per dozen (PPD).
+
+\[
+\text{Price Per Dozen} (\text{PPD}) = \frac{\text{Total Cost}}{\text{Number of Dozens Purchased}}
+\]
+\[
+\text{PPD} = \frac{28.80}{3} = 9.60 \text{ dollars}
+\]
+
+**Step 2:** Use the calculated PPD to find the cost for five dozen oranges.
+
+\[
+\text{Cost for } 5 \text{ dozen} = \text{PPD} \times 5
+\]
+\[
+\text{Cost} = 9.60 \times 5 = 48.00 \text{ dollars}
+\]
+
+### Final Answer:
+The cost for five dozen oranges is \boxed{$48.00}.
+
+response_cn:
+<think>
+嗯，我现在得解决这个问题：约翰买了3斤橙子，总共花掉了28.80美元。现在要算一下如果他买5斤的话，需要多少钱。
+
+首先，我应该先理解问题中的信息。题目里说约翰用的是“同样”的价格来计算的，也就是说每斤橙子的价格是一样的。那是不是意味着不管多少斤，只要按相同单价计算呢？
+
+好的，所以我要找出每斤橙子的价格，然后再乘以5斤。这样就能得到答案了。
+
+接下来，我需要用总花费除以数量来求出单价。也就是：
+
+单价 = 总金额 / 数量
+
+这里总金额是28.80美元，数量是3斤。那么，
+
+单价 = 28.80 ÷ 3
+
+让我仔细地计算一下这个分数相除的结果。先把分子和分母都化简成整数吧？比如，我可以把28.80分成144/6或者直接分开来看是否能约分。
+
+不过可能更简单的方式就是直接计算出来。28.80 ÷ 3等于多少呢？
+
+我们可以拆开来想一想，28除以3大约等于9.333…，然后加上剩下的0.80，再除以3。但或许可以一步到位。
+
+其实，我知道3×9=27，还剩下1个单位（因为28-27=1），这时候再加上原来的0.80，相当于加了0.8+0.0333...≈0.8333……但是这可能会导致小数位数不够，不太准确。也许更好的方法是从上往下分解：
+
+28.80 ÷ 3 
+
+可以把28看作28.00，方便计算：
+
+28.00 ÷ 3 = 9.333...
+
+然后在后面加上0.80：
+
+9.333... + 0.80 ≈ 9.333... + 0.8 = 10.133...
+
+但是这样的话结果会变成10.133美元，对吗？但这似乎有点低了，因为通常水果的价格应该是合理的，不可能这么便宜。可能哪里有问题？
+
+等等，我的思路不对了吗？或者说，是不是百分比的问题？比如说，每斤的价格是多少？
+
+哦，原来刚才我把总价平均分配到每斤上，而实际上，这里的“同样”指的是总量不变的情况下，单价保持一致。因此，正确的做法应该是将总价28.80美元除以3斤，得出每斤的价格，然后再乘以5斤。
+
+让我重新计算一遍：
+
+28.80 ÷ 3 = ?
+
+先分解为：
+
+28.80 ÷ (3 × 1) = (28.80 ÷ 3)/1 = 9.60
+
+所以每斤橙子的价格是9.60美元。接着，计算5斤的成本：
+
+5 × 9.60 = ?
+
+计算方式如下：
+
+5 × 9.60  
+   - 5 × 9 = 45  
+   - 5 × 0.60 = 3  
+     将它们加起来: 45 + 3 = 48
+
+所以，5斤橙子的价格是48美元。
+
+嗯，看来之前的错误在于没有正确应用“同样”的意思，而是误以为总价平摊到每斤上，从而得到了一个不合理的价格。正确的做法是分别计算每斤的价格，而不是试图让总价均匀分布到各斤之间。这样才不会出现这样的偏差。
+</think>
+
+约翰买的3斤橙子用了28.80美元，其中平均每斤橙子的价格为：
+
+\[ \text{每斤价格} = \frac{\$28.80}{3} = \$9.60 \]
+
+为了计算5斤橙子的价格，我们只需将每斤价格乘以5：
+
+\[ 5 \times \$9.60 = \$48 \]
+
+**答案**: $\boxed{48}$
