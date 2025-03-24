@@ -1,0 +1,143 @@
+question:
+If $991+993+995+997+999=5000-N$, then $N=$
+$\text{(A)}\ 5 \qquad \text{(B)}\ 10 \qquad \text{(C)}\ 15 \qquad \text{(D)}\ 20 \qquad \text{(E)}\ 25$
+
+
+response:
+<think>
+Okay, so I need to find the value of N such that when I add these numbers: 991 + 993 + 995 + 997 + 999 and subtract it from 5000, I get N. The options are given as (A) 5, (B) 10, (C) 15, (D) 20, (E) 25. Hmm, let me think step by step.
+
+First, maybe adding all those numbers directly would be easier? Let me write them out again:
+
+991  
+993  
+995  
+997  
+999  
+
+Wait, they're consecutive odd numbers. So maybe there's a pattern here. Let me check the difference between each term. For example, 991 and 993: 993 - 991 = 2. Then 995 - 993 = 2. Similarly, 997 - 995 = 2, and 999 - 997 = 2. Oh! Each term increases by 2. That means this is an arithmetic sequence where the first term a₁ is 991, and the common difference d is 2.
+
+Now, since it's an arithmetic sequence with positive terms, the sum S can be calculated using the formula for the sum of an arithmetic series: S = n/2 * [2a₁ + (n-1)d], where n is the number of terms. But wait, hold on—wait, in our case, how many terms do we have?
+
+Looking at the terms: 991, 993, 995, 997, 999. Let's count them. Starting from 991 up to 999, stepping by 2 each time. Since 999 minus 991 is 8, divided by 2 gives 4 steps. Wait, but actually, 991, 993, 995, 997, 999. How many terms is that? Let's see:
+
+From 991 to 999, inclusive. To find how many terms, you can use the formula for the nth term of an arithmetic sequence: a_n = a₁ + (n - 1)d.
+
+Here, aₙ = 999, a₁ = 991, d = 2. Plugging into the formula:
+
+999 = 991 + (n - 1)*2
+
+Subtract 991 from both sides:
+
+8 = (n - 1)*2
+
+Divide both sides by 2:
+
+4 = n - 1
+
+So n = 5. Therefore, there are 5 terms. Okay, so now I know there are 5 terms. Now, plug into the sum formula:
+
+S = n/2 * [2a₁ + (n - 1)d]
+
+Plugging in n = 5, a₁ = 991, d = 2:
+
+S = 5/2 * [2*991 + (5 - 1)*2]
+
+Compute inside the brackets first:
+
+2*991 = 1982
+
+(5 - 1)*2 = 4*2 = 8
+
+Add them together: 1982 + 8 = 1990
+
+Multiply by 5/2:
+
+5/2 * 1990 = 5 * 995 = 4975
+
+So the total sum of these five terms is 4975. Now, according to the problem, if we take this sum and subtract it from 5000, we get N. So N = 5000 - 4975.
+
+Calculating that:
+
+5000 - 4975 = 25
+
+So N is 25. Looking back at the answer choices, option E is 25. Therefore, the answer should be E.
+
+But let me verify my calculations again to make sure I didn't make any mistakes.
+
+First, confirming the number of terms. From 991 to 999 inclusive, which is 999 - 991 = 8, divided by 2 is 4 terms. Correct.
+
+Then, applying the sum formula:
+
+Sum = 5/2 * [2*991 + 4*2] = 5/2 * [1982 + 8] = 5/2 * 1990 = 5*995 = 4975. Yes, that seems correct.
+
+Then, 5000 - 4975 = 25. Yep, that's right.
+
+Alternatively, another way to compute the sum might be to pair terms or something? Maybe pairing the middle term with the first, the second with the third, etc., but with five terms, two pairs. Let me try that method to cross-check.
+
+Pairing 991 + 999 = 1990
+
+Pairing 993 + 997 = 1990
+
+Adding both pairs: 1990 + 1990 = 3980
+
+Is this possible? If each pair adds up to 1990, then three pairs would be 3980, plus the remaining term 995 would give 3980 + 995 = 4975. Which matches what I got before. So that confirms it.
+
+Therefore, regardless of the method, the result is 4975, so 5000 - 4975 = 25. So the answer must be E) 25.
+
+**Final Answer**
+\boxed{E}
+</think>
+
+To find the value of \( N \) such that \( 991 + 993 + 995 + 997 + 999 = 5000 - N \), we start by recognizing that the given numbers form an arithmetic sequence. 
+
+The arithmetic sequence has the first term \( a_1 = 991 \) and a common difference \( d = 2 \). We determine the number of terms \( n \):
+
+\[
+a_n = 999
+\]
+\[
+999 = 991 + (n - 1) \cdot 2
+\]
+\[
+8 = (n - 1) \cdot 2
+\]
+\[
+n - 1 = 4
+\]
+\[
+n = 5
+\]
+
+Using the formula for the sum of an arithmetic series:
+
+\[
+S = \frac{n}{2} \left[ 2a_1 + (n - 1)d \right]
+\]
+
+Substituting the known values:
+
+\[
+S = \frac{5}{2} \left[ 2 \cdot 991 + 4 \cdot 2 \right]
+\]
+\[
+S = \frac{5}{2} \left[ 1982 + 8 \right]
+\]
+\[
+S = \frac{5}{2} \cdot 1990
+\]
+\[
+S = 5 \cdot 995 = 4975
+\]
+
+Thus, the sum of the given numbers is 4975. Subtracting this from 5000 gives:
+
+\[
+N = 5000 - 4975 = 25
+\]
+
+We verified the solution by pairing terms and checking consistency through alternative methods, confirming the result. The final answer is:
+
+\[
+\boxed{E}
+\]
