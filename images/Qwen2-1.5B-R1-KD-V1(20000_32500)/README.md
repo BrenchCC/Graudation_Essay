@@ -1,0 +1,3 @@
+- dataset ["Numina-Math-R1-COT-172K","Thinking-Abstract-Math-R1-Distill-94K","GSM8K-CN-R1-Distill-6K"] (172K)
+- per_device_train_batch_size 4 
+- gradient_accumulation_steps 2
